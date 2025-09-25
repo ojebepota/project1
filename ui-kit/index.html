@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coral Digital UI Kit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container">
+        <div class="badge">Coral Digital</div>
+        <h1>Coral Digital Design System</h1>
+        <p>
+          Referensi visual dan komponen untuk menjaga konsistensi brand Coral
+          Digital di seluruh pengalaman web.
+        </p>
+        <div class="hero-actions">
+          <button class="btn btn-primary">Gunakan Komponen</button>
+          <button class="btn btn-outline">Download Assets</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="identity">
+        <h2>Brand Identity</h2>
+        <div class="grid two-cols">
+          <div>
+            <h3>Color Palette</h3>
+            <div class="swatch-grid">
+              <article class="swatch" style="--swatch-color: #1D67B2">
+                <span class="label">Primary Blue</span>
+                <span class="value">#1D67B2</span>
+              </article>
+              <article class="swatch" style="--swatch-color: #009DE0">
+                <span class="label">Coral Aqua</span>
+                <span class="value">#009DE0</span>
+              </article>
+              <article class="swatch" style="--swatch-color: #00A3E6">
+                <span class="label">Sky Accent</span>
+                <span class="value">#00A3E6</span>
+              </article>
+              <article class="swatch" style="--swatch-color: #3069AC">
+                <span class="label">Deep Blue</span>
+                <span class="value">#3069AC</span>
+              </article>
+              <article class="swatch" style="--swatch-color: #ffffff; color: #111">
+                <span class="label">Pure White</span>
+                <span class="value">#FFFFFF</span>
+              </article>
+              <article class="swatch" style="--swatch-color: #f5f5f5; color: #111">
+                <span class="label">Cloud Grey</span>
+                <span class="value">#F5F5F5</span>
+              </article>
+              <article class="swatch" style="--swatch-color: #333333">
+                <span class="label">Core Neutral</span>
+                <span class="value">#333333</span>
+              </article>
+              <article class="swatch gradient">
+                <span class="label">Signature Gradient</span>
+                <span class="value">#1D67B2 → #009DE0</span>
+              </article>
+            </div>
+          </div>
+          <div>
+            <h3>Usage Notes</h3>
+            <ul class="notes">
+              <li>
+                Gunakan <strong>Primary Blue</strong> untuk CTA utama, link
+                penting, dan highlight hero.
+              </li>
+              <li>
+                Terapkan <strong>Signature Gradient</strong> untuk hero section,
+                banner CTA, atau overlay card.
+              </li>
+              <li>
+                Warna netral (#333 &amp; #F5F5F5) menjaga hirarki konten dan
+                keterbacaan.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="typography">
+        <h2>Typography</h2>
+        <div class="type-stack">
+          <article>
+            <span class="eyebrow">Display</span>
+            <h1 class="type-display">Partnering Growth, Delivering Excellence</h1>
+          </article>
+          <article>
+            <span class="eyebrow">Heading</span>
+            <h2 class="type-heading">Solusi Digital End-to-End untuk Bisnis Anda</h2>
+          </article>
+          <article>
+            <span class="eyebrow">Body</span>
+            <p class="type-body">
+              Kami menghadirkan strategi SEO, pengembangan website, dan desain
+              UI/UX yang fokus pada hasil nyata dan pertumbuhan berkelanjutan.
+            </p>
+          </article>
+          <article>
+            <span class="eyebrow">Caption</span>
+            <p class="type-caption">Nunito Sans · Tracking 2% · Uppercase</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="components">
+        <h2>UI Components</h2>
+        <div class="grid three-cols component-grid">
+          <article class="component">
+            <h3>Buttons</h3>
+            <div class="button-group">
+              <button class="btn btn-primary">Konsultasi Gratis</button>
+              <button class="btn btn-secondary">Request Proposal</button>
+              <button class="btn btn-outline">Pelajari Selengkapnya</button>
+            </div>
+            <p class="caption">
+              Rounded-2xl, shadow halus, hover → lebih gelap 8%.
+            </p>
+          </article>
+
+          <article class="component">
+            <h3>Cards</h3>
+            <div class="card-set">
+              <div class="service-card">
+                <span class="icon">🚀</span>
+                <h4>SEO &amp; Growth Marketing</h4>
+                <p>
+                  Optimasi mesin pencari berbasis data untuk menaikkan traffic
+                  dan konversi.
+                </p>
+                <a href="#" class="link">Lihat detail layanan</a>
+              </div>
+              <div class="service-card gradient-card">
+                <span class="icon">💡</span>
+                <h4>Website Development</h4>
+                <p>
+                  WordPress &amp; custom build dengan performa tinggi dan
+                  keamanan optimal.
+                </p>
+                <a href="#" class="link">Pelajari case study</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="component">
+            <h3>Navigation</h3>
+            <nav class="nav">
+              <div class="logo">Coral Digital</div>
+              <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+              <button class="btn btn-primary btn-small">Konsultasi</button>
+            </nav>
+            <p class="caption">Desktop nav + CTA tegas di sisi kanan.</p>
+          </article>
+
+          <article class="component">
+            <h3>Testimonial</h3>
+            <div class="testimonial">
+              <p>
+                “Tim Coral Digital membawa lonjakan traffic organik sebesar 130%
+                dalam 6 bulan. Mereka responsif dan transparan.”
+              </p>
+              <div class="testimonial-meta">
+                <span class="avatar">AN</span>
+                <div>
+                  <strong>Andini Novitasari</strong>
+                  <span>Marketing Lead, Sagara Craft</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="component">
+            <h3>Forms</h3>
+            <form class="form">
+              <label>
+                Nama Lengkap
+                <input type="text" placeholder="Tuliskan nama Anda" />
+              </label>
+              <label>
+                Email / WhatsApp
+                <input type="email" placeholder="nama@domain.com" />
+              </label>
+              <label>
+                Pesan
+                <textarea rows="3" placeholder="Ceritakan kebutuhan Anda"></textarea>
+              </label>
+              <button class="btn btn-primary" type="submit">Kirim Konsultasi</button>
+            </form>
+          </article>
+
+          <article class="component">
+            <h3>Stats</h3>
+            <div class="stats">
+              <div>
+                <span class="value">40+</span>
+                <span class="label">Website Dibangun</span>
+              </div>
+              <div>
+                <span class="value">120%</span>
+                <span class="label">Average SEO Growth</span>
+              </div>
+              <div>
+                <span class="value">15</span>
+                <span class="label">Industri Terlayani</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="layouts">
+        <h2>Layout Patterns</h2>
+        <div class="layout-grid">
+          <div class="layout-card">
+            <span class="layout-title">Hero Section</span>
+            <div class="layout-hero">
+              <div>
+                <h3>Partnering Growth, Delivering Excellence</h3>
+                <p>
+                  Solusi digital terintegrasi: SEO, pengembangan website, dan
+                  kampanye marketing untuk pertumbuhan bisnis Anda.
+                </p>
+                <div class="button-group">
+                  <button class="btn btn-primary">Konsultasi Gratis</button>
+                  <button class="btn btn-outline">Lihat Portfolio</button>
+                </div>
+              </div>
+              <div class="hero-visual">
+                <div class="glow"></div>
+                <span>Mockup Website</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="layout-card">
+            <span class="layout-title">Services Overview</span>
+            <div class="layout-services">
+              <div class="service-item">
+                <span class="icon">📈</span>
+                <h4>SEO &amp; Growth Marketing</h4>
+                <p>Skema retainer dan sprint.</p>
+              </div>
+              <div class="service-item">
+                <span class="icon">🖥️</span>
+                <h4>Website Development</h4>
+                <p>WordPress &amp; custom stack.</p>
+              </div>
+              <div class="service-item">
+                <span class="icon">🎨</span>
+                <h4>UI/UX Design</h4>
+                <p>Audit UX &amp; product design.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="layout-card">
+            <span class="layout-title">Portfolio Grid</span>
+            <div class="portfolio-grid">
+              <div class="portfolio-card">
+                <span class="tag">SEO</span>
+                <h4>Organic Growth untuk Fintech</h4>
+                <p>130% traffic organik dalam 6 bulan.</p>
+              </div>
+              <div class="portfolio-card">
+                <span class="tag">Website</span>
+                <h4>Company Profile B2B</h4>
+                <p>Site cepat &amp; siap enterprise.</p>
+              </div>
+              <div class="portfolio-card">
+                <span class="tag">UI/UX</span>
+                <h4>Aplikasi Edukasi Digital</h4>
+                <p>Onboarding completion naik 45%.</p>
+              </div>
+              <div class="portfolio-card">
+                <span class="tag">Branding</span>
+                <h4>Identitas Produk F&B</h4>
+                <p>Brand recall meningkat 60%.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="motion">
+        <h2>States &amp; Interactions</h2>
+        <div class="grid two-cols">
+          <div class="state-card">
+            <h3>Button States</h3>
+            <div class="state-row">
+              <button class="btn btn-primary">Default</button>
+              <button class="btn btn-primary is-hover">Hover</button>
+              <button class="btn btn-primary is-pressed">Pressed</button>
+              <button class="btn btn-primary is-disabled" disabled>Disabled</button>
+            </div>
+          </div>
+          <div class="state-card">
+            <h3>Elevation</h3>
+            <div class="elevation-stack">
+              <div class="elevation level-1">Shadow 8dp</div>
+              <div class="elevation level-2">Shadow 16dp</div>
+              <div class="elevation level-3">Shadow 24dp</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="voice">
+        <h2>Copy Tone</h2>
+        <div class="voice-grid">
+          <div>
+            <h3>Brand Voice</h3>
+            <ul class="notes">
+              <li>Profesional namun bersahabat.</li>
+              <li>Fokus pada hasil, bukan jargon.</li>
+              <li>Gunakan bahasa Indonesia baku dengan sentuhan optimis.</li>
+            </ul>
+          </div>
+          <div>
+            <h3>CTA Library</h3>
+            <div class="cta-list">
+              <span>Mulai kolaborasi</span>
+              <span>Request proposal</span>
+              <span>Lihat studi kasus</span>
+              <span>Konsultasi gratis</span>
+              <span>Optimalkan pertumbuhan</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© 2024 Coral Digital. Tetap konsisten dalam setiap pengalaman.</p>
+        <button class="btn btn-secondary">Download Brand Kit</button>
+      </div>
+    </footer>
+  </body>
+</html>
